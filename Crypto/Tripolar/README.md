@@ -30,7 +30,7 @@ Now because x, y, z are big numbers we can get them back with approximation:
 #### Step-5:
 The following `Crack.py` helps us to find the flag.
 
-```
+```py
 from Crypto.Util.number import *
 
 def crow(x, y, z):
