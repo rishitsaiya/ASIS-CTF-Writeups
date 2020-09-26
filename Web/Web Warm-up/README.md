@@ -62,7 +62,7 @@ print(f'"{"".join(one)}"|"{"".join(two)}"')
 
 When we execute it in terminal using `python3 Gen.py` we obtain the following result:
 
-```json
+```bash
 {
     "'": [('!', '&')],
     '(': [('(', '(')],
