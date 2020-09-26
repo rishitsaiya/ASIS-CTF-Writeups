@@ -33,7 +33,7 @@ We can send this payload as `warmup`, but written as some operation of 2 strings
 
 The following `Gen.py` will help to generate such payloads.
 
-```
+```py
 #!/usr/bin/env python
 from rich import print
 import string
@@ -62,7 +62,7 @@ print(f'"{"".join(one)}"|"{"".join(two)}"')
 
 When we execute it in terminal using `python3 Gen.py` we obtain the following result:
 
-```
+```json
 {
     "'": [('!', '&')],
     '(': [('(', '(')],
@@ -89,7 +89,7 @@ Next we use our final `Solution.py` to get the flag.
 
 The code for `Solution.py` would be as follows:
 
-```
+```py
 #!/usr/bin/env python
 
 import requests
